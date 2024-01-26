@@ -19,3 +19,6 @@ docker run -p 8080:8080 --memory=1500m --cpus=2 optimise-http-server
 
 ## Optimisation
 Used fs.createReadStream instead of fs.readFile to optimise the performance as the file are large in size ~100MB.
+
+## Postman Example
+![https://i.ibb.co/dDPSL05/Screenshot-2024-01-26-165054.png](https://i.ibb.co/9sxZrmy/dqwdwqd.png)
